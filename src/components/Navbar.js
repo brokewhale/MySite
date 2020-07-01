@@ -8,10 +8,18 @@ function Navbar() {
                 </div>
 
                 <ul className="navbar_links">
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li className='navbar_links-item'>
+                        <a className='navlink' href="kenny.com">ABOUT</a>
+                    </li>
+                    <li className='navbar_links-item'>
+                        <a className='navlink' href="kenny.com">PORTFOLIO</a>
+                    </li>
+                    <li className='navbar_links-item'>
+                        <a className='navlink' href="kenny.com">SERVICES</a>
+                    </li>
+                    <li className='navbar_links-item'>
+                        <a className='navlink' href="kenny.com">CONTACT</a>
+                    </li>
                 </ul>
 
             </nav>
