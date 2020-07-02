@@ -1,28 +1,49 @@
-import React from 'react'
+import React, { useState } from 'react'
+// import { Link } from 'react-router-dom'
+
+
 function Navbar() {
+    const [open, setOpen] = useState(true);
+
+    const handleOpen = () => {
+        setOpen(!open)
+    }
+
+
+
     return (
-        <div>
-            <nav className="navbar">
+        <div className={`header ${open ? '' : 'open'}`}>
+            <div className="menu" onClick={handleOpen}>
+                <div className={`bar ${open ? '' : 'open'}`}></div>
+            </div>
+
+            <div className='navbar'>
+
+
                 <div className="navbar_logo">
                     RankedDev
                 </div>
 
-                <ul className="navbar_links">
-                    <li className='navbar_links-item'>
-                        <a className='navlink' href="kenny.com">ABOUT</a>
+                <ul className={`navbar_links ${open ? '' : 'open'}`}>
+                    <li className={`navbar_links-item `}  >
+                        < p className='navlink' data-text='ABOUT' >ABOUT</ p>
                     </li>
-                    <li className='navbar_links-item'>
-                        <a className='navlink' href="kenny.com">PORTFOLIO</a>
+                    <li className={`navbar_links-item `} >
+                        < p className='navlink' data-text='PORTFOLIO' >PORTFOLIO</ p>
                     </li>
-                    <li className='navbar_links-item'>
-                        <a className='navlink' href="kenny.com">SERVICES</a>
+                    <li className={`navbar_links-item `} >
+                        < p className='navlink' data-text='SERVICES' >SERVICES</ p>
                     </li>
-                    <li className='navbar_links-item'>
-                        <a className='navlink' href="kenny.com">CONTACT</a>
+                    <li className={`navbar_links-item `} >
+                        < p className='navlink' data-text='CONTACT' >CONTACT</ p>
                     </li>
+
+
+
                 </ul>
 
-            </nav>
+
+            </div>
         </div>
     )
 }
