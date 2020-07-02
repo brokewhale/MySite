@@ -100,56 +100,14 @@
 }
 
 @include breakpoint-down(medium) {
-    // .navbar {
-    //     // border: 1px solid red;
-    //     // padding: 20px;
-    //     background-color: #6610f2;
-    //     // background-color: white;
-    //     // position: absolute;
-    //     // top: 0;
-    //     // left: 0;
-    //     width: 50%;
-    //     height: auto;
-    //     flex-direction: column;
-    //     align-items: center;
-    //     justify-content: space-evenly;
-    //     color: #6610f2;
-    //     transform: rotateY(-90deg);
-    //     transition: transform 650ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
-
-
-
-
-
-    //     &_logo {
-    //         // background-color: #6610f2;
-    //         // animation: initial;
-    //         // border-radius: 100%;
-    //         // width: 10rem;
-    //         // height: 10rem;
-    //         display: flex;
-    //         align-items: center;
-    //         justify-content: center;
-    //         // color: white;
-
-    //     }
-
-    //     &_links {
-    //         color: #6610f2;
-    //         flex-direction: column;
-    //         align-items: center;
-
-    //         &-item {
-    //             color: #6610f2;
-    //         }
-    //     }
-    // }
 
     .navbar {
+        padding: 0 16px;
+
         justify-content: flex-start;
         align-items: center;
         width: 100%;
-        min-height: 80px;
+        min-height: 65px;
         height: auto;
         position: relative;
 
@@ -171,18 +129,13 @@
             -webkit-clip-path: circle(100px at 90% -15%);
             transition: all 1.2s ease-in-out;
 
-            // opacity: 0;
-            // transform: translateY(-300px);
-            // transition: all 650ms;
-
-
         }
 
 
     }
 
     .menu {
-        padding: 1.5rem 1.9rem;
+        padding: 1.25rem 1.75rem;
         position: fixed;
         top: 1rem;
         right: 1rem;
@@ -210,11 +163,11 @@
     }
 
     .bar::before {
-        top: -1.7rem;
+        top: -21px;
     }
 
     .bar::after {
-        top: 1rem;
+        top: 11px;
     }
 
     .open.bar {
@@ -234,12 +187,7 @@
         top: 0;
     }
 
-    // .open.navbar_links {
-    //     opacity: 1;
-    //     transform: translateY(0);
-    //     // transform: rotateY(0);
 
-    // }
     .open.navbar_links {
         clip-path: circle(1370px at 90% -15%);
         -webkit-clip-path: circle(1370px at 90% -15%);

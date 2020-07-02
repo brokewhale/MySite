@@ -156,6 +156,7 @@ a {
 
 @media (max-width: 64em) {
   .navbar {
+    padding: 0 16px;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
@@ -163,7 +164,7 @@ a {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    min-height: 80px;
+    min-height: 65px;
     height: auto;
     position: relative;
   }
@@ -189,7 +190,7 @@ a {
     transition: all 1.2s ease-in-out;
   }
   .menu {
-    padding: 1.5rem 1.9rem;
+    padding: 1.25rem 1.75rem;
     position: fixed;
     top: 1rem;
     right: 1rem;
@@ -215,10 +216,10 @@ a {
     transition: all 650ms;
   }
   .bar::before {
-    top: -1.7rem;
+    top: -21px;
   }
   .bar::after {
-    top: 1rem;
+    top: 11px;
   }
   .open.bar {
     background-color: transparent;
