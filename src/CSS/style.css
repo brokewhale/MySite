@@ -5,6 +5,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Noto Serif", serif;
 }
 
 h1 {
@@ -17,7 +18,7 @@ a {
 }
 
 .navbar {
-  background-color: #0173a7;
+  background-color: black;
   padding: 8px 16px;
   overflow: hidden;
   width: 100%;
@@ -88,7 +89,7 @@ a {
   left: 0;
   bottom: -187%;
   padding: inherit;
-  color: #0173a7;
+  color: black;
   -webkit-transform: rotateX(-90deg);
           transform: rotateX(-90deg);
   -webkit-transform-origin: top;
@@ -97,7 +98,7 @@ a {
 }
 
 .nav {
-  background-color: #0173a7;
+  background-color: black;
   padding: 8px 16px;
   overflow: hidden;
 }
@@ -155,6 +156,9 @@ a {
 }
 
 @media (max-width: 64em) {
+  .navbar_logo {
+    font-weight: 500;
+  }
   .navbar__menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -181,6 +185,29 @@ a {
   .navbar__menu > div:not(:last-child) {
     margin-bottom: 5px;
   }
+  .navbar_links {
+    position: absolute;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 40px;
+    top: 43px;
+    left: 0;
+  }
+  .navbar_links-item {
+    font-size: 25px;
+    font-weight: 700;
+  }
   .line3 {
     position: absolute;
     right: 0;
@@ -189,8 +216,8 @@ a {
     transition: all 650ms;
   }
   .open .line1 {
-    -webkit-transform: rotate(135deg);
-            transform: rotate(135deg);
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
     width: 30px;
   }
   .open .line {
@@ -200,8 +227,8 @@ a {
     width: 30px;
     left: 0;
     bottom: -3px;
-    -webkit-transform: rotate(-135deg);
-            transform: rotate(-135deg);
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
   }
 }
 

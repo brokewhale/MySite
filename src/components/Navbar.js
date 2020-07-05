@@ -27,7 +27,7 @@ function Navbar() {
                     <div className={`line3 ${open ? '' : 'open'}`}></div>
                 </div>
 
-                <ul className={`navbar_links hide-for-mobile ${open ? '' : 'open'}`}>
+                <ul className={`navbar_links  ${open ? '' : 'open'}`}>
                     <li className={`navbar_links-item `}  >
                         < p className='navlink' data-text='ABOUT' >ABOUT</ p>
                     </li>
