@@ -217,10 +217,14 @@ a {
     margin-left: -400px;
   }
   .open .navlink {
+    animation: 2.5s slide-right;
     -webkit-animation: 2.5s slide-right;
-            animation: 2.5s slide-right;
+    -moz-animation: 2.5s slide-right;
+    -ms-animation: 2.5s slide-right;
+    -o-animation: 2.5s slide-right;
+    animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
   }
   .line3 {
     position: absolute;

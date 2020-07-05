@@ -192,6 +192,17 @@
 
     .open .navlink {
         animation: 2.5s slide-right;
+        -webkit-animation: 2.5s slide-right;
+        -moz-animation: 2.5s slide-right;
+        -ms-animation: 2.5s slide-right;
+        -o-animation: 2.5s slide-right;
+
+
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        -ms-animation-fill-mode: forwards;
+        -o-animation-fill-mode: forwards;
         animation-fill-mode: forwards;
     }
 
