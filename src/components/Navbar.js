@@ -13,9 +13,7 @@ function Navbar() {
 
     return (
         <div className={`header ${open ? '' : 'open'}`}>
-            <div className="menu" onClick={handleOpen}>
-                <div className={`bar ${open ? '' : 'open'}`}></div>
-            </div>
+
 
             <div className='navbar'>
 
@@ -23,8 +21,13 @@ function Navbar() {
                 <div className="navbar_logo">
                     RankedDev
                 </div>
+                <div className="navbar__menu" onClick={handleOpen}>
+                    <div className={`line1 ${open ? '' : 'open'}`}></div>
+                    <div className={`line ${open ? '' : 'open'}`}></div>
+                    <div className={`line3 ${open ? '' : 'open'}`}></div>
+                </div>
 
-                <ul className={`navbar_links ${open ? '' : 'open'}`}>
+                <ul className={`navbar_links hide-for-mobile ${open ? '' : 'open'}`}>
                     <li className={`navbar_links-item `}  >
                         < p className='navlink' data-text='ABOUT' >ABOUT</ p>
                     </li>
