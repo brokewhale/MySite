@@ -185,6 +185,17 @@
         }
     }
 
+    .navlink {
+        margin-left: -400px;
+
+    }
+
+    .open .navlink {
+        animation: 2.5s slide-right;
+        animation-fill-mode: forwards;
+    }
+
+
     .line3 {
         position: absolute;
         right: 0;
@@ -226,6 +237,20 @@
     }
 
 }
+
+
+
+
+@keyframes slide-right {
+    from {
+        margin-left: -400px;
+    }
+
+    to {
+        margin-left: 0;
+    }
+}
+
 
 
 //visibility

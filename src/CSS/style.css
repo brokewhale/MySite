@@ -213,6 +213,15 @@ a {
     font-size: 25px;
     font-weight: 700;
   }
+  .navlink {
+    margin-left: -400px;
+  }
+  .open .navlink {
+    -webkit-animation: 2.5s slide-right;
+            animation: 2.5s slide-right;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
   .line3 {
     position: absolute;
     right: 0;
@@ -239,6 +248,24 @@ a {
     opacity: 1;
     -webkit-transform: translateX(0);
             transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes slide-right {
+  from {
+    margin-left: -400px;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -400px;
+  }
+  to {
+    margin-left: 0;
   }
 }
 
