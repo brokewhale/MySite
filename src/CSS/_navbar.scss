@@ -103,6 +103,7 @@
 
 @include breakpoint-down(medium) {
     .navbar {
+
         &_logo {
             font-weight: 500;
         }
@@ -146,6 +147,10 @@
         }
 
         &_links {
+            opacity: 0;
+            transform: translateX(-415px);
+            transition: all 0.5s ease-in;
+
             // transform: translateX(-30px);
             position: absolute;
             flex-direction: column;
@@ -163,10 +168,16 @@
 
 
 
+
+
+
+
+
             &-item {
                 // margin-bottom: 20px;
                 font-size: 25px;
                 font-weight: 700;
+
 
 
             }
@@ -200,6 +211,19 @@
         transform: rotate(-45deg);
     }
 
+    .open .navbar {
+
+        &_links {
+            opacity: 1;
+            transform: translateX(0);
+
+
+
+
+
+
+        }
+    }
 
 }
 

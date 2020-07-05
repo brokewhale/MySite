@@ -186,6 +186,11 @@ a {
     margin-bottom: 5px;
   }
   .navbar_links {
+    opacity: 0;
+    -webkit-transform: translateX(-415px);
+            transform: translateX(-415px);
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
     position: absolute;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -229,6 +234,11 @@ a {
     bottom: -3px;
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
+  }
+  .open .navbar_links {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
