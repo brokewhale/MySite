@@ -1,6 +1,6 @@
 import React from 'react';
 import face from '../img/face.jpg';
-import { FaArrowRight } from 'react-icons/fa';
+// import { FaArrowRight } from 'react-icons/fa';
 
 
 function Project() {
@@ -13,7 +13,7 @@ function Project() {
             <div className="project__name">
                 Weather
             </div>
-            <button className="project__btn"> <FaArrowRight />
+            <button className="project__btn"> right
             </button>
 
         </div>
