@@ -1,0 +1,13 @@
+.project {
+    border-radius: 8px;
+
+    &__img {
+        img {
+            width: 100%;
+        }
+    }
+
+    &__btn {
+        height: auto;
+    }
+}

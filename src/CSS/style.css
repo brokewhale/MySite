@@ -8,8 +8,8 @@
   font-family: "Noto Serif", serif;
 }
 
-h1 {
-  font-size: 50px;
+.react-icons {
+  vertical-align: middle;
 }
 
 a {
@@ -71,10 +71,10 @@ a {
           transform-style: preserve-3d;
   -webkit-transform-origin: top;
           transform-origin: top;
-  -webkit-transition: -webkit-transform 600ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
-  transition: -webkit-transform 600ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
-  transition: transform 600ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
-  transition: transform 600ms cubic-bezier(0.55, 0.55, 0.675, 0.19), -webkit-transform 600ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
+  -webkit-transition: -webkit-transform 500ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
+  transition: -webkit-transform 500ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
+  transition: transform 500ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
+  transition: transform 500ms cubic-bezier(0.55, 0.55, 0.675, 0.19), -webkit-transform 500ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
 }
 
 .navlink:hover {
@@ -280,7 +280,70 @@ a {
 }
 
 .body {
-  height: 100vh;
+  height: auto;
+  background-color: #f2f2ff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.intro {
+  width: 93vw;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 0 0 15px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
+          box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
+}
+
+.intro__title {
+  font-size: 38px;
+  margin-top: 15px;
+  margin-bottom: 23px;
+}
+
+.intro__info {
+  font-size: 1rem;
+  color: #000000a6;
+  margin-bottom: 10px;
+}
+
+.intro__btn {
+  color: black;
+  font-size: 13px;
+  width: 130px;
+  height: 35px;
+  background-color: #f2f2ff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.addproject {
+  width: 93vw;
+  margin: 0 auto;
+}
+
+.project {
+  border-radius: 8px;
+}
+
+.project__img img {
   width: 100%;
+}
+
+.project__btn {
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */

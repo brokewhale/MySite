@@ -1,8 +1,15 @@
 import React from 'react';
+import Intro from './Intro';
+// import Addprojects from './AddProjects'
+import AddProjects from './AddProjects';
 // import webbackground from '../webbackground.png';
 function Body() {
     return (
-        <div className="body"></div>
+        <div className="body">
+            <Intro />
+            <AddProjects />
+
+        </div>
     )
 }
 

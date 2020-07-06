@@ -28,14 +28,14 @@ function Navbar() {
                 </div>
 
                 <ul className={`navbar_links  ${open ? '' : 'open'}`}>
+                    <li className={`navbar_links-item `} >
+                        < p className='navlink' data-text='HOME' >HOME</ p>
+                    </li>
                     <li className={`navbar_links-item `}  >
                         < p className='navlink' data-text='ABOUT' >ABOUT</ p>
                     </li>
                     <li className={`navbar_links-item `} >
                         < p className='navlink' data-text='PORTFOLIO' >PORTFOLIO</ p>
-                    </li>
-                    <li className={`navbar_links-item `} >
-                        < p className='navlink' data-text='SERVICES' >SERVICES</ p>
                     </li>
                     <li className={`navbar_links-item `} >
                         < p className='navlink' data-text='CONTACT' >CONTACT</ p>

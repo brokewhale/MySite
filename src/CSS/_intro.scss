@@ -1,0 +1,37 @@
+.intro {
+    // height: 298px;
+    width: 93vw;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
+    ;
+
+    &__title {
+        font-size: 38px;
+        margin-top: 15px;
+        margin-bottom: 23px;
+
+    }
+
+    &__info {
+        font-size: 1rem;
+        color: #000000a6;
+        margin-bottom: 10px;
+    }
+
+    &__btn {
+        color: black;
+        font-size: 13px;
+        width: 130px;
+        height: 35px;
+        background-color: #f2f2ff;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+    }
+}
