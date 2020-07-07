@@ -333,17 +333,106 @@ a {
 .addproject {
   width: 93vw;
   margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.feat {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .project {
-  border-radius: 8px;
+  cursor: pointer;
+  -webkit-box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
+          box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
+  -webkit-transform: none;
+          transform: none;
+  background-color: white;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: all 650ms;
+  transition: all 650ms;
+}
+
+.project:active {
+  -webkit-transform: scale(1.04) translateZ(0px);
+          transform: scale(1.04) translateZ(0px);
+}
+
+.project:hover {
+  -webkit-transform: scale(1.04) translateZ(0px);
+          transform: scale(1.04) translateZ(0px);
 }
 
 .project__img img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  height: 265px;
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+  -webkit-transition: all 2.5s ease-in-out;
+  transition: all 2.5s ease-in-out;
 }
 
-.project__btn {
-  height: auto;
+.project__img img:hover {
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.project__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 17px 35px;
+}
+
+.project__info-name {
+  font-size: 20px;
+}
+
+.project__info-btn {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  background-color: mediumpurple;
+  border-radius: 5px;
+}
+
+.rig {
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+iframe {
+  border: none;
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */

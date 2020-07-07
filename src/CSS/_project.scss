@@ -1,13 +1,76 @@
 .project {
-    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
+    transform: none;
+    background-color: white;
+    border-radius: 15px;
+    // border: 1px solid aqua;
+    display: flex;
+    flex-direction: column;
+    transition: all 650ms;
+
+    &:active {
+        transform: scale(1.04) translateZ(0px);
+    }
+
+    &:hover {
+        transform: scale(1.04) translateZ(0px);
+    }
 
     &__img {
         img {
+
             width: 100%;
+            // background-image: url(../img/Homepage.png);
+            object-fit: cover;
+            object-position: top;
+            height: 265px;
+            border-radius: 15px 15px 0 0;
+            overflow: hidden;
+            // transition: transform 1s ease-in-out;
+            transition: all 2.5s ease-in-out;
+
+            &:hover {
+                object-position: bottom;
+            }
+        }
+
+
+
+
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        padding: 17px 35px;
+
+        &-name {
+            font-size: 20px;
+        }
+
+        &-btn {
+            cursor: pointer;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            background-color: mediumpurple;
+            border-radius: 5px;
         }
     }
 
-    &__btn {
-        height: auto;
-    }
+}
+
+.rig {
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+iframe {
+    border: none;
+    overflow: hidden;
 }
