@@ -9,9 +9,7 @@
     flex-direction: column;
     transition: all 650ms;
 
-    &:active {
-        transform: scale(1.04) translateZ(0px);
-    }
+
 
     &:hover {
         transform: scale(1.04) translateZ(0px);

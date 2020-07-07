@@ -222,7 +222,8 @@
     }
 
     .open .line {
-        background-color: transparent;
+        // background-color: transparent;
+        transform: translateX(60px);
     }
 
     .open .line3 {

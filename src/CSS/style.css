@@ -239,7 +239,8 @@ a {
     width: 30px;
   }
   .open .line {
-    background-color: transparent;
+    -webkit-transform: translateX(60px);
+            transform: translateX(60px);
   }
   .open .line3 {
     width: 30px;
@@ -365,11 +366,6 @@ a {
   transition: all 650ms;
 }
 
-.project:active {
-  -webkit-transform: scale(1.04) translateZ(0px);
-          transform: scale(1.04) translateZ(0px);
-}
-
 .project:hover {
   -webkit-transform: scale(1.04) translateZ(0px);
           transform: scale(1.04) translateZ(0px);
@@ -434,5 +430,54 @@ a {
 iframe {
   border: none;
   overflow: hidden;
+}
+
+.skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skill__icon img {
+  width: 40px;
+  margin-bottom: 3px;
+  -webkit-transition: all 650ms;
+  transition: all 650ms;
+}
+
+.skill__icon img:hover {
+  -webkit-transform: scale(1.4) translateZ(0px);
+          transform: scale(1.4) translateZ(0px);
+}
+
+.skill span {
+  color: #62748e;
+}
+
+.skills {
+  width: 93vw;
+  margin: 0 auto;
+}
+
+.skills__grid {
+  margin-top: 15px;
+  -webkit-box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
+          box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
+  background-color: white;
+  border-radius: 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 30px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
