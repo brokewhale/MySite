@@ -15,7 +15,7 @@ function Footer() {
             </div>
             <div className="footer__copy">
                 <span> <FaCopyright className='copy' />2020 YUSUF KEHINDE</span>
-                <a href="yusufkehinde11@gmail.come"> yusufkehinde11@gmail.com</a>
+                <a href="yusufkehinde11@gmail.com"> yusufkehinde11@gmail.com</a>
             </div>
         </footer>
     )
