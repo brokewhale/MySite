@@ -1,0 +1,51 @@
+.footer {
+
+    border-top: 1px solid #d1d1db;
+    padding: 20px 20px 0 20px;
+
+    &__icon {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        margin-bottom: 20px;
+        text-align: end;
+    }
+
+    &__copy {
+        font-size: 14px;
+
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 15px;
+            font-weight: 400;
+
+            line-height: normal;
+
+            letter-spacing: .47px;
+
+            .copy {
+                margin-right: 10px;
+            }
+        }
+
+        a {
+            font-weight: 400;
+
+            line-height: normal;
+
+            letter-spacing: 0.47px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+        }
+    }
+
+}
+
+.icon {
+    justify-self: center;
+
+}
