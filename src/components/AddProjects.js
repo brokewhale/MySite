@@ -9,18 +9,27 @@ function AddProjects() {
     return (
         <div className='addproject'>
             <p className='feat'>Featured Projects</p>
-            <Project
-                image={Homepage}
-                name='MyHotel'
-            />
-            <Project
-                image={dark}
-                name='Dark'
-            />
-            <Project
-                image={insure}
-                name='Insure'
-            />
+            <a href="https://myhotelk.netlify.app">
+
+                <Project
+                    image={Homepage}
+                    name='MyHotel'
+                />
+            </a>
+            <a href="https://rankedevdarklandingpage.netlify.app">
+
+                <Project
+                    image={dark}
+                    name='Dark'
+                />
+            </a>
+            <a href="https://rankedevinsure.netlify.app">
+
+                <Project
+                    image={insure}
+                    name='Insure'
+                />
+            </a>
         </div>
 
     )

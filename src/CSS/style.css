@@ -372,6 +372,10 @@ a {
   margin-left: 9px;
 }
 
+a {
+  color: black;
+}
+
 .project {
   cursor: pointer;
   -webkit-box-shadow: rgba(173, 173, 180, 0.57) 0px 2px 24px 1px;
