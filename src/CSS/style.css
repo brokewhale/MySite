@@ -339,12 +339,14 @@ a {
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   gap: 20px;
+  margin-bottom: 35px;
 }
 
 .feat {
   font-size: 20px;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 9px;
 }
 
 .project {
@@ -464,6 +466,11 @@ iframe {
 .skills {
   width: 93vw;
   margin: 0 auto;
+}
+
+.skills .ki {
+  margin: 0px 0px 20px 9px;
+  font-size: 1rem;
 }
 
 .skills__grid {
