@@ -45,6 +45,18 @@
 
         &-name {
             font-size: 20px;
+
+            span {
+                display: inline-block;
+                position: relative;
+                max-width: 152px;
+
+                @include breakpoint-up(medium) {
+                    max-width: unset;
+                }
+
+
+            }
         }
 
         &-btn {

@@ -3,7 +3,7 @@ import React from 'react';
 import { FaAngleRight } from 'react-icons/fa';
 
 
-function Project({ image, name }) {
+function Project({ image, name, imgincase }) {
 
 
     return (
@@ -16,7 +16,9 @@ function Project({ image, name }) {
             </div>
             <div className="project__info">
                 <div className="project__info-name">
-                    {name}
+                    <span>
+                        {name} {imgincase}
+                    </span>
                 </div>
                 <button className="project__info-btn"> <FaAngleRight className='rig' />
                 </button>

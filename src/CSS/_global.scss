@@ -7,7 +7,7 @@
     font-family: $font4;
     -webkit-tap-highlight-color: transparent;
     -webkit-user-select: none;
-    ;
+
 
 }
 
@@ -21,4 +21,8 @@ a {
     color: white;
     -webkit-tap-highlight-color: transparent;
 
+}
+
+button {
+    outline: none;
 }

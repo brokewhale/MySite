@@ -2,19 +2,41 @@
     width: 93vw;
     // border: 3px solid aqua;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
+
     margin-bottom: 35px;
+
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
 
 .feat {
     font-size: 20px;
     font-weight: 400;
-    margin-top: 30px;
-    margin-left: 9px;
+    margin: 30px 0px 20px 9px;
 }
 
 a {
     color: black;
+}
+
+.imgincase {
+    margin-left: 10px;
+    position: relative;
+    top: 4px;
+}
+
+@include breakpoint-up(medium) {
+    .addproject {
+        width: 80vw;
+
+
+        &__grid {
+
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 }
