@@ -6,6 +6,8 @@
   margin: 0;
   padding: 0;
   font-family: "Noto Serif", serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
 }
 
 .react-icons {
@@ -15,6 +17,7 @@
 a {
   text-decoration: none;
   color: white;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .navbar {
