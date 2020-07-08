@@ -4,8 +4,11 @@ import { FaAngleRight } from 'react-icons/fa';
 
 
 function Project({ image, name }) {
+
+
     return (
-        <div className="project">
+        <div className={`project `}
+        >
             <div className="project__img" >
                 <img src={image} alt="Homepage" />
 

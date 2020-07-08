@@ -349,8 +349,8 @@ a {
 
 .project {
   cursor: pointer;
-  -webkit-box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
-          box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
+  -webkit-box-shadow: rgba(173, 173, 180, 0.57) 0px 2px 24px 1px;
+          box-shadow: rgba(173, 173, 180, 0.57) 0px 2px 24px 1px;
   -webkit-transform: none;
           transform: none;
   background-color: white;
@@ -479,5 +479,35 @@ iframe {
   gap: 40px;
   padding: 30px;
   text-align: center;
+}
+
+.prof__title {
+  font-size: 1rem;
+  margin: 20px 0px 20px 20px;
+}
+
+.prof__grid {
+  padding: 10px 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  gap: 40px;
+}
+
+.prof__grid_icon img {
+  width: 32px;
+  height: 32px;
+}
+
+.prof__grid_details-title {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.prof__grid_details-info {
+  font-size: 14px;
+  line-height: 33px;
+  color: #62748e;
 }
 /*# sourceMappingURL=style.css.map */
