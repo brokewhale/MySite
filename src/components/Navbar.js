@@ -1,52 +1,52 @@
-import React, { useState } from 'react'
+import React from 'react';
+import { FaLightbulb } from 'react-icons/fa';
+
+// import myAvatar from '../img/myAvatar.png';
 // import { Link } from 'react-router-dom'
 
 
 function Navbar() {
-    const [open, setOpen] = useState(true);
-
-    const handleOpen = () => {
-        setOpen(!open)
-    }
 
 
 
     return (
-        <div className={`header ${open ? '' : 'open'}`}>
+        <div className={`header `}>
 
 
             <div className='navbar'>
 
 
                 <div className="navbar_logo">
-                    RankedDev
-                </div>
-                <div className="navbar__menu" onClick={handleOpen}>
-                    <div className={`line1 ${open ? '' : 'open'}`}></div>
-                    <div className={`line ${open ? '' : 'open'}`}></div>
-                    <div className={`line3 ${open ? '' : 'open'}`}></div>
+                    {/* <img src={myAvatar} alt="logo" /> */}
                 </div>
 
-                <ul className={`navbar_links  ${open ? '' : 'open'}`}>
-                    <li className={`navbar_links-item `} >
-                        < p className='navlink' data-text='HOME' >HOME</ p>
-                    </li>
-                    <li className={`navbar_links-item `}  >
-                        < p className='navlink' data-text='ABOUT' >ABOUT</ p>
-                    </li>
-                    <li className={`navbar_links-item `} >
-                        < p className='navlink' data-text='PORTFOLIO' >PORTFOLIO</ p>
-                    </li>
-                    <li className={`navbar_links-item `} >
-                        < p className='navlink' data-text='CONTACT' >CONTACT</ p>
-                    </li>
+                <div className='daflex'>
+
+                    <ul className={`navbar_links  `}>
+
+                        <li className='navbar_links-item' >
+                            < p className='navlink' data-text='ABOUT' >ABOUT</ p>
+                        </li>
+                        <li className='navbar_links-item'>
+                            < p className='navlink' data-text='PORTFOLIO' >PORTFOLIO</ p>
+                        </li>
+                        <li className='navbar_links-item'>
+                            < p className='navlink' data-text='CONTACT' >CONTACT</ p>
+                        </li>
 
 
 
-                </ul>
+
+                    </ul>
+                    <div className="darkmode">
+                        <FaLightbulb className='darkmode_icon' />
+                    </div>
+                </div>
+
 
 
             </div>
+
         </div>
     )
 }
