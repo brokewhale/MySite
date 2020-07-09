@@ -37,3 +37,10 @@
 
     }
 }
+
+@include breakpoint-up(medium) {
+    .prof {
+        width: 80vw;
+        margin: 0 auto;
+    }
+}

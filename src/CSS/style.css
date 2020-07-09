@@ -552,6 +552,53 @@ iframe {
   text-align: center;
 }
 
+.skills .rea {
+  animation: App-logo-spin infinite 5s linear;
+  -moz-animation: App-logo-spin infinite 5s linear;
+  -webkit-animation: App-logo-spin infinite 5s linear;
+  -o-animation: App-logo-spin infinite 5s linear;
+}
+
+@media (min-width: 39.9375em) {
+  .skills {
+    width: 80vw;
+  }
+  .skills__grid {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px 30px;
+  }
+  .skill__icon img {
+    width: 120px;
+    margin-bottom: 22px;
+  }
+  .skill span {
+    font-size: 22px;
+  }
+}
+
+@-webkit-keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
 .prof {
   position: relative;
 }
@@ -584,6 +631,13 @@ iframe {
   font-size: 14px;
   line-height: 33px;
   color: #62748e;
+}
+
+@media (min-width: 39.9375em) {
+  .prof {
+    width: 80vw;
+    margin: 0 auto;
+  }
 }
 
 .footer {
@@ -628,6 +682,7 @@ iframe {
 .footer__copy a {
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 10px;
   letter-spacing: 0.47px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -644,5 +699,24 @@ iframe {
 .icon {
   -ms-grid-column-align: center;
       justify-self: center;
+}
+
+@media (min-width: 39.9375em) {
+  .footer__icon {
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .footer__copy span {
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+  }
+  .footer__copy a {
+    letter-spacing: 5px;
+  }
+  .icon {
+    width: 55px;
+    height: 26px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

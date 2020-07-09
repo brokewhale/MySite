@@ -34,7 +34,7 @@
             font-weight: 400;
 
             line-height: normal;
-
+            margin-bottom: 10px;
             letter-spacing: 0.47px;
             display: flex;
             align-items: center;
@@ -48,4 +48,32 @@
 .icon {
     justify-self: center;
 
+}
+
+@include breakpoint-up(medium) {
+    .footer {
+
+        &__icon {
+            width: 60vw;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        &__copy {
+            span {
+                letter-spacing: 10px;
+                margin-bottom: 5px;
+            }
+
+            a {
+                letter-spacing: 5px;
+            }
+        }
+
+    }
+
+    .icon {
+        width: 55px;
+        height: 26px;
+    }
 }

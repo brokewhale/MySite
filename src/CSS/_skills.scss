@@ -54,4 +54,59 @@
         text-align: center;
 
     }
+
+    .rea {
+        animation: App-logo-spin infinite 5s linear;
+        -moz-animation: App-logo-spin infinite 5s linear;
+        -webkit-animation: App-logo-spin infinite 5s linear;
+        -o-animation: App-logo-spin infinite 5s linear;
+
+
+
+
+    }
+}
+
+@include breakpoint-up(medium) {
+    .skills {
+        width: 80vw;
+
+        &__grid {
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 40px 30px;
+
+        }
+    }
+
+    .skill {
+
+        &__icon {
+            img {
+                width: 120px;
+                margin-bottom: 22px;
+
+
+
+
+            }
+
+        }
+
+        span {
+            font-size: 22px;
+        }
+
+    }
+
+
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }

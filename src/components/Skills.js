@@ -32,8 +32,8 @@ function Skills() {
                     <span>JavaScript</span>
                 </div>
                 <div className="skill">
-                    <div className="skill__icon">
-                        <img src={rea} alt="react" />
+                    <div className="skill__icon ">
+                        <img src={rea} alt="react" className='rea' />
                     </div>
                     <span>React</span>
                 </div>
