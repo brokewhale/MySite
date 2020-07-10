@@ -21,8 +21,22 @@
     }
 
     span {
-        color: rgb(98, 116, 142);
+        // color: rgb(98, 116, 142);
 
+    }
+
+}
+
+.eng-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 3px;
+    transition: all 650ms;
+
+
+
+    &:hover {
+        transform: scale(1.4) translateZ(0px);
     }
 
 }
@@ -42,7 +56,7 @@
 
     &__grid {
         margin-top: 15px;
-        box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
+        // box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
         background-color: white;
         border-radius: 15px;
 
@@ -99,7 +113,16 @@
     }
 
 
+    .eng-icon {
+        width: 111px;
+
+        height: 110px;
+
+        margin-bottom: 32px;
+
+    }
 }
+
 
 @keyframes App-logo-spin {
     from {

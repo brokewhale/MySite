@@ -17,7 +17,7 @@ function Project({ image, name, imgincase }) {
             <div className="project__info">
                 <div className="project__info-name">
                     <span>
-                        {name} {imgincase}
+                        <p>{name} {imgincase}</p>
                     </span>
                 </div>
                 <button className="project__info-btn"> <FaAngleRight className='rig' />

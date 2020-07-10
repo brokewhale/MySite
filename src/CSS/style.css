@@ -267,8 +267,6 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
-          box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
 }
 
 .intro__title {
@@ -279,12 +277,10 @@ button {
 
 .intro__info {
   font-size: 1rem;
-  color: #000000a6;
   margin-bottom: 10px;
 }
 
 .intro__btn {
-  color: black;
   font-size: 13px;
   width: 130px;
   height: 35px;
@@ -359,8 +355,6 @@ a {
 
 .project {
   cursor: pointer;
-  -webkit-box-shadow: rgba(173, 173, 180, 0.57) 0px 2px 24px 1px;
-          box-shadow: rgba(173, 173, 180, 0.57) 0px 2px 24px 1px;
   -webkit-transform: none;
           transform: none;
   background-color: white;
@@ -374,6 +368,7 @@ a {
           flex-direction: column;
   -webkit-transition: all 650ms;
   transition: all 650ms;
+  border: none;
 }
 
 .project:hover {
@@ -406,7 +401,10 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 17px 35px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 17px 13px;
 }
 
 .project__info-name {
@@ -449,11 +447,6 @@ a {
   height: 30px;
 }
 
-iframe {
-  border: none;
-  overflow: hidden;
-}
-
 .skill {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -479,8 +472,17 @@ iframe {
           transform: scale(1.4) translateZ(0px);
 }
 
-.skill span {
-  color: #62748e;
+.eng-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 3px;
+  -webkit-transition: all 650ms;
+  transition: all 650ms;
+}
+
+.eng-icon:hover {
+  -webkit-transform: scale(1.4) translateZ(0px);
+          transform: scale(1.4) translateZ(0px);
 }
 
 .skills {
@@ -495,8 +497,6 @@ iframe {
 
 .skills__grid {
   margin-top: 15px;
-  -webkit-box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
-          box-shadow: rgba(144, 144, 151, 0.57) 0px 2px 24px 1px;
   background-color: white;
   border-radius: 15px;
   display: -ms-grid;
@@ -530,6 +530,11 @@ iframe {
   }
   .skill span {
     font-size: 22px;
+  }
+  .eng-icon {
+    width: 111px;
+    height: 110px;
+    margin-bottom: 32px;
   }
 }
 
@@ -587,6 +592,11 @@ iframe {
   font-size: 14px;
   line-height: 33px;
   color: #62748e;
+}
+
+.code-icon {
+  width: 32px;
+  height: 32px;
 }
 
 @media (min-width: 39.9375em) {

@@ -5,15 +5,23 @@ export const lightTheme = {
     testbg: '',
     iconfill: 'black',
     background: 'linear-gradient(#39598A, #79D7ED)',
+    bshadow: 'rgba(144, 144, 151, 0.57) 0px 2px 24px 1px',
+    septext: 'black',
+    septextblue: 'rgb(98, 116, 142)',
+
 }
 
 export const darkTheme = {
     body: 'black',
     text: '#FAFAFA',
     toggleBorder: 'white',
-    testbg: 'gray',
+    testbg: 'black',
     iconfill: 'white',
-
+    bshadow: 'none',
     background: '#999',
+    septext: 'white',
+    septextblue: 'lightgray',
+
+
 }
 // background-color: #f2f2ff;

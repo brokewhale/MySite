@@ -12,6 +12,7 @@ function Footer() {
                 <FaGithub className='icon' />
                 <FaCodepen className='icon' />
 
+
             </div>
             <div className="footer__copy">
                 <span> <FaCopyright className='copy' />2020 YUSUF KEHINDE</span>

@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle `
     transition: all 0.50s linear;
   }
 
-  .intro,.skills__grid{
+  .intro,.skills__grid, .project{
     background: ${({ theme }) => theme.testbg};
 
 
@@ -19,5 +19,20 @@ export const GlobalStyles = createGlobalStyle `
 
   .darkmode_icon{
     fill: ${({ theme }) => theme.iconfill};
+  }
+
+  .intro,.project,.skills__grid{
+    box-shadow: ${({ theme }) => theme.bshadow};
+
+
+  }
+
+  .project__info-name{
+    color: ${({ theme }) => theme.septext};
+  }
+
+  .skillname,.prof__grid_details-info{
+    color: ${({ theme }) => theme.septextblue};
+
   }
   `

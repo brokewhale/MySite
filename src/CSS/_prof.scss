@@ -38,6 +38,11 @@
     }
 }
 
+.code-icon {
+    width: 32px;
+    height: 32px;
+}
+
 @include breakpoint-up(medium) {
     .prof {
         width: 80vw;
