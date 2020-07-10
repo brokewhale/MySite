@@ -3,14 +3,14 @@ import {
 } from "styled-components"
 
 export const GlobalStyles = createGlobalStyle `
-  body {
+  body,.intro {
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     font-family: Tahoma, Helvetica, Arial, Roboto, sans-serif;
     transition: all 0.50s linear;
   }
 
-  .intro,.skills__grid, .project{
+  .skills__grid, .project{
     background: ${({ theme }) => theme.testbg};
 
 
@@ -27,7 +27,7 @@ export const GlobalStyles = createGlobalStyle `
 
   }
 
-  .project__info-name{
+  .project__info-name,.email-link{
     color: ${({ theme }) => theme.septext};
   }
 

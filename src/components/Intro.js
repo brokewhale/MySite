@@ -18,7 +18,7 @@ function Intro() {
                 Hello, I'm Yusuf Kehinde, a front-end developer,
                 I build websites, develop web and mobile applications.
         </p>
-            <button className='intro__btn'>HIRE ME</button>
+            <a href="mailto:yusufkehinde11@gmail.com"><button className='intro__btn'>HIRE ME</button></a>
             {/* <button onClick={themeToggler}>Switch Theme</button> */}
 
         </div>
