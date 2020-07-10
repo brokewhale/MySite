@@ -10,6 +10,10 @@
   -webkit-user-select: none;
 }
 
+body {
+  background-color: #f2f2ff;
+}
+
 .react-icons {
   vertical-align: middle;
 }
@@ -37,7 +41,6 @@ button {
 }
 
 .header {
-  background-color: #f2f2ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,7 +88,6 @@ button {
 }
 
 .navbar_links-item {
-  color: rgba(0, 0, 0, 0.65);
   cursor: pointer;
 }
 
@@ -245,7 +247,6 @@ button {
 
 .body {
   height: auto;
-  background-color: #f2f2ff;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
@@ -257,7 +258,6 @@ button {
   width: 93vw;
   margin: 0 auto;
   background-color: white;
-  color: black;
   padding: 20px;
   border-radius: 0 0 15px 15px;
   display: -webkit-box;
