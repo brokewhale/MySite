@@ -114,26 +114,6 @@ button {
   transition: transform 500ms cubic-bezier(0.55, 0.55, 0.675, 0.19), -webkit-transform 500ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
 }
 
-.navlink:hover {
-  -webkit-transform: rotateX(90deg);
-          transform: rotateX(90deg);
-}
-
-.navlink::after {
-  background-color: white;
-  content: attr(data-text);
-  position: absolute;
-  left: 0;
-  bottom: -187%;
-  padding: inherit;
-  color: #f2f2ff;
-  -webkit-transform: rotateX(-90deg);
-          transform: rotateX(-90deg);
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  border-radius: 5px;
-}
-
 .daflex {
   width: auto;
   display: -webkit-inline-box;
@@ -227,22 +207,44 @@ button {
   }
 }
 
-@-webkit-keyframes slide-right {
-  from {
-    margin-left: -400px;
-  }
-  to {
-    margin-left: 0;
-  }
+.react-responsive-modal-modal {
+  width: 93vw;
+  height: auto;
+  margin: 0 auto;
+  padding: 45px 25px 0 0 !important;
 }
 
-@keyframes slide-right {
-  from {
-    margin-left: -400px;
-  }
-  to {
-    margin-left: 0;
-  }
+.modal__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.modalinfo {
+  padding: 20px;
+}
+
+.modalinfo_title {
+  padding-bottom: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.modalinfo_text {
+  color: aqua;
+}
+
+.modalimg img {
+  width: 400px;
+  height: 400px;
 }
 
 .body {

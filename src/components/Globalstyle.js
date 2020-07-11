@@ -17,7 +17,7 @@ export const GlobalStyles = createGlobalStyle `
 
   }
 
-  .darkmode_icon{
+  .icon,.darkmode_icon{
     fill: ${({ theme }) => theme.iconfill};
   }
 

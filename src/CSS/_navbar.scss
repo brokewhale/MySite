@@ -59,26 +59,9 @@
     transform-origin: top;
     transition: transform 500ms cubic-bezier(0.55, 0.55, 0.675, 0.19);
 
-    &:hover {
-        transform: rotateX(90deg);
-    }
 
 
-    &::after {
-        background-color: white;
-        content: attr(data-text);
 
-        position: absolute;
-        left: 0;
-        bottom: -187%;
-        padding: inherit;
-        color: $myblue;
-        transform: rotateX(-90deg);
-        transform-origin: top;
-        border-radius: 5px;
-
-
-    }
 
 }
 
@@ -154,14 +137,38 @@
 }
 
 
+.react-responsive-modal-modal {
+    width: 93vw;
+    height: auto;
+    margin: 0 auto;
+    padding: 45px 25px 0 0 !important;
+}
 
+.modal__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
-@keyframes slide-right {
-    from {
-        margin-left: -400px;
+.modalinfo {
+    padding: 20px;
+
+    &_title {
+        padding-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    to {
-        margin-left: 0;
+    &_text {
+        color: aqua;
+    }
+}
+
+.modalimg {
+
+
+    img {
+        width: 400px;
+        height: 400px;
     }
 }
