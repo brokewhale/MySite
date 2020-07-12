@@ -11,7 +11,7 @@ import { FaReact } from 'react-icons/fa';
 
 function AddProjects() {
     return (
-        <div className='addproject'>
+        <div className='addproject' id='pro'>
             <p className='feat'>Featured Projects</p>
             <div className="addproject__grid">
 

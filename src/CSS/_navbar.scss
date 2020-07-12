@@ -125,6 +125,7 @@
 
         &_links {
             display: none;
+            width: 93vw;
         }
     }
 
@@ -138,37 +139,76 @@
 
 
 .react-responsive-modal-modal {
-    width: 93vw;
     height: auto;
     margin: 0 auto;
     padding: 45px 25px 0 0 !important;
+    max-width: 1023px !important;
+
+    // background-color: rgba(2, 29, 68, .1) !important;
+    @include breakpoint-down(medium) {
+        padding-right: 0 !important;
+    }
 }
 
 .modal__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    @include breakpoint-down(medium) {
+        grid-template-columns: 1fr;
+    }
+
+
 }
 
 .modalinfo {
-    padding: 20px;
+    padding: 0 20px 20px 20px;
+
+    @include breakpoint-down(medium) {
+        padding: 0 20px;
+    }
 
     &_title {
         padding-bottom: 1.5rem;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
-    &_text {
-        color: aqua;
+    p {
+        margin-bottom: 1rem;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+
+        a {
+            color: aqua;
+            outline: none;
+        }
+
+        @include breakpoint-down(medium) {
+            font-size: 14px;
+        }
     }
 }
 
 .modalimg {
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 10px;
+
 
 
     img {
         width: 400px;
         height: 400px;
+
+        @include breakpoint-down(medium) {
+            margin: 0 auto;
+
+            width: 324px;
+            height: 270px;
+            object-fit: cover;
+        }
     }
 }

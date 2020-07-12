@@ -7,6 +7,7 @@ import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 import myAvatar from '../img/myAvatar.png';
 
+
 // import myAvatar from '../img/myAvatar.png';
 // import { Link } from 'react-router-dom'
 
@@ -18,6 +19,12 @@ function Navbar() {
         theme === 'light' ? setTheme('dark') : setTheme('light')
         console.log("clickde");
 
+    }
+    // const [pro, setPro]
+
+    const goPro = () => {
+        const anchor = document.querySelector('#pro')
+        anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
     }
     //Modals
 
@@ -38,18 +45,19 @@ function Navbar() {
                         <div className="modal__grid">
 
                             <div className="modalinfo">
-                                <h2 className='modalinfo_title'>About Me</h2>
-                                <p className="mobileinfo_text">
-                                    I'm Yusuf Kehinde Hussein, a freelance front-end developer and designer based in Lagos, Nigeria.
+                                <h2 className='modalinfo_title'>Hi! i'm Hussein  <span role="img" aria-label="wave hand"> 👋</span>  </h2>
 
-                                    I build websites, develop web and mobile applications and I do design, for over 3 years.
+                                <p > I'm Yusuf Kehinde Hussein, front-end developer and an Hardware Engineer based in Ogun Sate, Nigeria.</p>
+                                <p > I am a hard working and dedicated developer witha keen eye for detail, and determination to deliver the best quality.</p>
 
-                                    I started out working as a creative developer in Touchcore Ltd, doing designs. My passion for semantics, analytical correlation and psychologial user patterns built the foundation of my strongly UX centered approach in design and development
+                                <p > The main areas of my experties are HTML(5), CSS(3), SCSS and JavaScript (vanilal and React).</p>
 
-                                    I enjoy a good cup of coffee, watching good movies and tv shows, playing video-games and listening to music.
+                                <p > I sepcialise in responsive web design (RWD) and i use version control systems (GIT) to maintain my code.</p>
+                                <p> I am also an Hardware developer with goal of building and developing of well optimized and cost efficient project.
+                                I have developed skills in hardware development with MATLAB, Python, C programming language, Embeded System design and Circuit design.
+                                </p>
+                                <p > <strong> Intrested in working with me?</strong> <a href="mailto:yusufkehinde11@mail.com">Get in Touch</a> and i'd be happy to talk to you.</p>
 
-                                    Actually for hire.
-                            </p>
                             </div>
                             <div className="modalimg">
                                 <img src={myAvatar} alt="avatar" />
@@ -73,11 +81,12 @@ function Navbar() {
                                     < p className='navlink' data-text='ABOUT' onClick={onOpenModal}>ABOUT</ p>
                                 </li>
                                 <li className='navbar_links-item'>
-                                    < p className='navlink' data-text='PORTFOLIO' >PORTFOLIO</ p>
+                                    <a href="#pro">< p className='navlink' data-text='WORKS' onClick={goPro} >WORKS</ p></a>
                                 </li>
                                 <li className='navbar_links-item'>
                                     < p className='navlink' data-text='CONTACT' >CONTACT</ p>
                                 </li>
+
 
 
 
