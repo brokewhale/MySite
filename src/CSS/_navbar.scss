@@ -138,77 +138,96 @@
 }
 
 
-.react-responsive-modal-modal {
-    height: auto;
-    margin: 0 auto;
-    padding: 45px 25px 0 0 !important;
-    max-width: 1023px !important;
+// .react-responsive-modal-modal {
+//     height: auto;
+//     margin: 0 auto;
+//     padding: 45px 25px 0 0 !important;
+//     max-width: 1023px !important;
 
-    // background-color: rgba(2, 29, 68, .1) !important;
-    @include breakpoint-down(medium) {
-        padding-right: 0 !important;
-    }
-}
+//     background-color: rgba(2, 29, 68, .1) !important;
+//     @include breakpoint-down(medium) {
+//         padding-right: 0 !important;
+//     }
+// }
 
-.modal__grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+// .modal__grid {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
 
-    @include breakpoint-down(medium) {
-        grid-template-columns: 1fr;
-    }
-
-
-}
-
-.modalinfo {
-    padding: 0 20px 20px 20px;
-
-    @include breakpoint-down(medium) {
-        padding: 0 20px;
-    }
-
-    &_title {
-        padding-bottom: 1.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-    }
-
-    p {
-        margin-bottom: 1rem;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 25px;
-
-        a {
-            color: aqua;
-            outline: none;
-        }
-
-        @include breakpoint-down(medium) {
-            font-size: 14px;
-        }
-    }
-}
-
-.modalimg {
-    justify-self: center;
-    align-self: center;
-    margin-bottom: 10px;
+//     @include breakpoint-down(medium) {
+//         grid-template-columns: 1fr;
+//     }
 
 
+// }
 
-    img {
-        width: 400px;
-        height: 400px;
+// .modalinfo {
+//     padding: 0 20px 20px 20px;
 
-        @include breakpoint-down(medium) {
-            margin: 0 auto;
+//     @include breakpoint-down(medium) {
+//         padding: 0 20px;
+//     }
 
-            width: 324px;
-            height: 270px;
-            object-fit: cover;
-        }
-    }
-}
+//     &_title {
+//         font-size: 25px;
+//         padding-bottom: 1.5rem;
+//         display: flex;
+//         align-items: center;
+//         justify-content: flex-start;
+
+//         @include breakpoint-down(small) {
+//             font-size: 14px;
+//         }
+//     }
+
+//     p {
+//         margin-bottom: 1rem;
+//         font-size: 18px;
+//         font-weight: 400;
+//         line-height: 25px;
+
+//         a {
+//             color: rgb(11, 199, 199);
+//             outline: none;
+//         }
+
+//         @include breakpoint-down(medium) {
+//             font-size: 14px;
+//         }
+//     }
+// }
+
+// .modalimg {
+//     justify-self: center;
+//     align-self: center;
+//     margin-bottom: 10px;
+
+
+
+//     img {
+//         width: 400px;
+//         height: 400px;
+
+//         @include breakpoint-down(medium) {
+//             margin: 0 auto;
+
+//             width: 324px;
+//             height: 270px;
+//             object-fit: cover;
+//         }
+//     }
+// }
+
+// .react-responsive-modal-closeButton {
+//     svg {
+//         fill: rgb(7, 223, 223);
+//     }
+// }
+
+// .react-responsive-modal-overlay {
+//     position: absolute !important;
+//     top: 0 !important;
+//     right: 0 !important;
+//     left: 0 !important;
+//     bottom: 0 !important;
+// }

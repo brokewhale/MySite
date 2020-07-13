@@ -3,7 +3,7 @@ import {
 } from "styled-components"
 
 export const GlobalStyles = createGlobalStyle `
-  body,.intro {
+  body,.intro,.modal  {
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     font-family: Tahoma, Helvetica, Arial, Roboto, sans-serif;
@@ -27,7 +27,7 @@ export const GlobalStyles = createGlobalStyle `
 
   }
 
-  .project__info-name,.email-link{
+  .project__info-name,.email-link, .navlink{
     color: ${({ theme }) => theme.septext};
   }
 
