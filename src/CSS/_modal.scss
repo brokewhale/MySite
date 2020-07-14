@@ -125,7 +125,7 @@
 
     p {
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 600;
         line-height: 25px;
         margin-bottom: 1rem;
 
@@ -136,6 +136,7 @@
 
         @include breakpoint-up(medium) {
             font-size: 18px;
+            font-weight: 400;
         }
     }
 }

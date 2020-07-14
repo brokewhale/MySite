@@ -35,6 +35,8 @@
             &-info {
                 font-size: 14px;
                 line-height: 33px;
+                font-weight: 700;
+
                 color: #62748e;
 
                 @include breakpoint-up(medium) {

@@ -49,7 +49,8 @@ h5 {
   font-family: "Noto Serif", serif;
 }
 
-p {
+p,
+span {
   font-family: "Indie Flower", cursive;
 }
 
@@ -254,6 +255,7 @@ p {
 .intro__info {
   font-size: 1rem;
   margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .intro__btn {
@@ -284,6 +286,7 @@ p {
     font-size: 22px;
     padding-right: 130px;
     margin-bottom: 45px;
+    font-weight: 400;
   }
   .intro__btn:hover {
     background-color: #fff2f2;
@@ -574,6 +577,7 @@ a {
 .prof__grid_details-info {
   font-size: 14px;
   line-height: 33px;
+  font-weight: 700;
   color: #62748e;
 }
 
@@ -668,7 +672,7 @@ a {
   .footer__copy span {
     letter-spacing: 10px;
     margin-bottom: 5px;
-    font-weight: 600;
+    font-weight: 700;
   }
   .footer__copy a {
     letter-spacing: 5px;
@@ -830,7 +834,7 @@ a {
 
 .modalinfo p {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 25px;
   margin-bottom: 1rem;
 }
@@ -843,6 +847,7 @@ a {
 @media (min-width: 39.9375em) {
   .modalinfo p {
     font-size: 18px;
+    font-weight: 400;
   }
 }
 
