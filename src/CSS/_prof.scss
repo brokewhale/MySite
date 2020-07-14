@@ -26,12 +26,20 @@
             &-title {
                 font-size: 16px;
                 margin-bottom: 15px;
+
+                @include breakpoint-up(medium) {
+                    font-size: 22px;
+                }
             }
 
             &-info {
                 font-size: 14px;
                 line-height: 33px;
                 color: #62748e;
+
+                @include breakpoint-up(medium) {
+                    font-size: 18px;
+                }
             }
         }
 
@@ -47,5 +55,10 @@
     .prof {
         width: 80vw;
         margin: 0 auto;
+    }
+
+    .code-icon {
+        width: 60px;
+        height: 60px;
     }
 }

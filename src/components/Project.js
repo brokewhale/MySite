@@ -1,5 +1,4 @@
 import React from 'react';
-// import face from '../img/face.jpg';
 import { FaAngleRight } from 'react-icons/fa';
 
 

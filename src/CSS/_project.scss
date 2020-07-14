@@ -1,10 +1,8 @@
 .project {
     cursor: pointer;
-    // box-shadow: rgba(173, 173, 180, 0.57) 0px 2px 24px 1px;
     transform: none;
     background-color: white;
     border-radius: 15px;
-    // border: 1px solid aqua;
     display: flex;
     flex-direction: column;
     transition: all 650ms;
@@ -20,13 +18,11 @@
         img {
 
             width: 100%;
-            // background-image: url(../img/Homepage.png);
             object-fit: cover;
             object-position: top;
             height: 265px;
             border-radius: 15px 15px 0 0;
             overflow: hidden;
-            // transition: transform 1s ease-in-out;
             transition: all 2.5s ease-in-out;
 
             &:hover {

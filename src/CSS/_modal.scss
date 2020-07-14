@@ -56,25 +56,18 @@
     line-height: 1;
     // color: #000;
     background-color: #2d2f32;
-    opacity: .2;
+    opacity: 1;
     cursor: pointer;
     border: none;
     appearance: none;
     outline: none;
 
     svg {
-        fill: aqua;
+        fill: #12faf2;
     }
 }
 
-//   button {
-//     font-size: .9rem;
-//     font-weight: 700;
-//     border: none;
-//     border-radius: 3px;
-//     padding: .3rem 1rem;
-//     margin-left: .5rem;
-//   }
+
 
 .button-default {
     background: #247BA0;

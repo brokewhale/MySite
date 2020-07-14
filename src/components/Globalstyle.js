@@ -3,6 +3,10 @@ import {
 } from "styled-components"
 
 export const GlobalStyles = createGlobalStyle `
+
+  *{
+    scrollbar-color: ${({ theme }) => theme.scrool};
+  }
   body,.intro,.modal  {
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
@@ -27,7 +31,7 @@ export const GlobalStyles = createGlobalStyle `
 
   }
 
-  .project__info-name,.email-link, .navlink{
+  .project__info-name,.email-link, .navlink, .intro__btn{
     color: ${({ theme }) => theme.septext};
   }
 

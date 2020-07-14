@@ -1,25 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useDarkMode } from "../components/useDarkMode";
 import { FaLightbulb } from 'react-icons/fa';
 import { GlobalStyles } from "../components/Globalstyle";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "../components/Themes"
 import Modal from "./Modal";
-import useModal from '../useModal';
+import useModal from '../components/useModal';
 
 
 
-// import myAvatar from '../img/myAvatar.png';
-// import { Link } from 'react-router-dom'
+
 
 
 function Navbar() {
 
-    const [theme, setTheme] = useState('light');
-    const themeToggler = () => {
-        theme === 'light' ? setTheme('dark') : setTheme('light')
-        console.log("clickde");
+    const [theme, themeToggler] = useDarkMode();
 
-    }
+    const themeMode = theme === 'light' ? lightTheme : darkTheme;
 
 
     const goPro = () => {
@@ -32,7 +29,7 @@ function Navbar() {
 
 
     return (
-        <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+        <ThemeProvider theme={themeMode}>
             <>
                 <GlobalStyles />
 

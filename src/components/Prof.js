@@ -1,6 +1,4 @@
 import React from 'react';
-// import dev from '..//img/dev.png';
-// import eng from '../img/svgs/eng.svg'
 import { FaCode, FaTools } from 'react-icons/fa';
 
 function Prof() {
@@ -9,7 +7,6 @@ function Prof() {
             <h1 className='prof__title'>WHAT I DO</h1>
             <div className="prof__grid">
                 <div className="prof__grid_icon">
-                    {/* <img src={dev} alt="development" /> */}
                     <FaCode className='code-icon' />
                 </div>
                 <div className="prof__grid_details">
@@ -21,7 +18,6 @@ function Prof() {
 
             <div className="prof__grid">
                 <div className="prof__grid_icon">
-                    {/* <img src={eng} alt="engineering" /> */}
                     <FaTools className='code-icon' />
 
 

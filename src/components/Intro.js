@@ -1,14 +1,11 @@
 import React from 'react';
-// import 'react-responsive-modal/styles.css';
-// import { Modal } from 'react-responsive-modal';
-// import myAvatar from '../img/myAvatar.png';
 import Modal from "./Modal";
-import useModal from '../useModal';
+import useModal from '../components/useModal';
 
 
 
 
-// import styled from "styled-components";
+
 
 function Intro() {
 
@@ -31,7 +28,6 @@ function Intro() {
                     I build websites, develop web and mobile applications.
             </p>
                 <button className='intro__btn' onClick={toggle} >ABOUT ME</button>
-                {/* <button onClick={themeToggler}>Switch Theme</button> */}
                 <Modal
                     isShowing={isShowing}
                     hide={toggle}

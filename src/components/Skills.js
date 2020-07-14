@@ -3,8 +3,6 @@ import c1 from '../img/svgs/c1.svg'
 import h1 from '../img/svgs/h1.svg'
 import js1 from '../img/svgs/js1.svg'
 import rea from '../img/svgs/rea.svg'
-// import eng from '../img/svgs/eng.svg'
-// import emb from '../img/svgs/emb.svg'
 import { FaTools, FaMicrochip } from 'react-icons/fa';
 
 
@@ -41,7 +39,6 @@ function Skills() {
                 </div>
                 <div className="skill">
                     <div className="skill__icon">
-                        {/* <img src={eng} alt="engineering" /> */}
                         <FaTools className='eng-icon' />
 
                     </div>
@@ -49,7 +46,6 @@ function Skills() {
                 </div>
                 <div className="skill">
                     <div className="skill__icon">
-                        {/* <img src={emb} alt="engineering" /> */}
                         <FaMicrochip className='eng-icon' />
 
 

@@ -13,6 +13,8 @@
 
 body {
     background-color: #f2f2ff;
+    max-width: 1440px;
+
 
 }
 
@@ -47,5 +49,19 @@ button {
     @include breakpoint-up(large) {
         display: none;
     }
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $font4;
+
+}
+
+p {
+    font-family: $font1;
 
 }
