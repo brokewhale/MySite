@@ -40,3 +40,19 @@ a {
         }
     }
 }
+
+.more {
+    a {
+        font-size: 1rem;
+        font-family: $font1;
+        color: rgb(11, 156, 156);
+        display: inline-flex;
+        align-items: center;
+
+        svg {
+            margin-left: 5px;
+        }
+
+
+    }
+}

@@ -333,6 +333,22 @@ a {
   }
 }
 
+.more a {
+  font-size: 1rem;
+  font-family: "Indie Flower", cursive;
+  color: #0b9c9c;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.more a svg {
+  margin-left: 5px;
+}
+
 .project {
   cursor: pointer;
   -webkit-transform: none;

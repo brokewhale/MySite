@@ -14,9 +14,14 @@ import useModal from '../components/useModal';
 
 function Navbar() {
 
-    const [theme, themeToggler] = useDarkMode();
 
-    const themeMode = theme === 'light' ? lightTheme : darkTheme;
+
+    let [theme, themeToggler] = useDarkMode();
+    let themeMode = theme === 'light' ? lightTheme : darkTheme;
+
+
+
+
 
 
     const goPro = () => {

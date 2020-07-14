@@ -4,7 +4,7 @@ import Homepage from '../img/Homepage.png';
 import dark from '../img/dark.png';
 import quote from '../img/quote.png';
 import weather from '../img/weather.png';
-import { FaReact } from 'react-icons/fa';
+import { FaReact, FaGithub } from 'react-icons/fa';
 
 
 
@@ -12,7 +12,7 @@ import { FaReact } from 'react-icons/fa';
 function AddProjects() {
     return (
         <div className='addproject' id='pro'>
-            <p className='feat'>Featured Projects</p>
+            <p className='feat'>Featured Projects. <span className='more'><a href="https://github.com/RankedDev">more on <FaGithub className='darkmode_icon' /></a></span></p>
             <div className="addproject__grid">
 
                 <a href="https://myhotelk.netlify.app">
