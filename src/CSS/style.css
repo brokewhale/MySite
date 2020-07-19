@@ -51,7 +51,7 @@ h5 {
 
 p,
 span {
-  font-family: "Indie Flower", cursive;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .header {
@@ -593,7 +593,6 @@ a {
 .prof__grid_details-info {
   font-size: 14px;
   line-height: 33px;
-  font-weight: 700;
   color: #62748e;
 }
 
