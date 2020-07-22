@@ -17,7 +17,7 @@ function Navbar() {
 
 
     let [theme, themeToggler] = useDarkMode();
-    let themeMode = theme === 'light' ? lightTheme : darkTheme;
+    let themeMode = theme === 'dark' ? lightTheme : darkTheme;
 
 
 

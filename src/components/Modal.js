@@ -22,7 +22,7 @@ const Modal = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
                         <p > I'm Yusuf Kehinde Hussein, front-end developer and an Hardware Engineer based in Ogun Sate, Nigeria.</p>
                         <p > I am a hard working and dedicated developer witha keen eye for detail, and determination to deliver the best quality.</p>
 
-                        <p > The main areas of my experties are HTML(5), CSS(3), SCSS and JavaScript (vanilal and React).</p>
+                        <p > The main areas of my expertise are HTML(5), CSS(3), SCSS and JavaScript (vanilal and React).</p>
 
                         <p > I sepcialise in responsive web design (RWD) and i use version control systems (GIT) to maintain my code.</p>
                         <p> I am also an Hardware developer with goal of building and developing of well optimized and cost efficient project.
