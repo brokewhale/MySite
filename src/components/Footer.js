@@ -9,7 +9,7 @@ function Footer() {
                 <a href="www.linkedin.com/in/yusufkehinde11" className='icon'><FaLinkedinIn className='icon' /></a>
                 <a href="https://twitter.com/Kool_Kage" className='icon'><FaTwitter className='icon' /></a>
                 <a href="mailto:yusufkehinde11@gmail.com" className='icon'><FaPhone className='icon' /></a>
-                <a href="https://github.com/RankedDev" className='icon'><FaGithub className='icon' /></a>
+                <a href="https://github.com/CodingMage" className='icon'><FaGithub className='icon' /></a>
                 <a href="https://codepen.io/rankeddev" className='icon'><FaCodepen className='icon' /></a>
 
 

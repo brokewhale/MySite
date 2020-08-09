@@ -12,7 +12,7 @@ import { FaReact, FaGithub } from 'react-icons/fa';
 function AddProjects() {
     return (
         <div className='addproject' id='pro'>
-            <p className='feat'>Featured Projects. <span className='more'><a href="https://github.com/RankedDev">more on <FaGithub className='darkmode_icon' /></a></span></p>
+            <p className='feat'>Featured Projects. <span className='more'><a href="https://github.com/CodingMage">more on <FaGithub className='darkmode_icon' /></a></span></p>
             <div className="addproject__grid">
 
                 <a href="https://myhotelk.netlify.app">
