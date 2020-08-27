@@ -2,7 +2,8 @@ import React from 'react';
 import Project from './Project';
 import Homepage from '../img/Homepage.png';
 import dark from '../img/dark.png';
-import quote from '../img/quote.png';
+// import quote from '../img/quote.png';
+import chat from '../img/chat.png';
 import weather from '../img/weather.png';
 import { FaReact, FaGithub } from 'react-icons/fa';
 
@@ -29,11 +30,11 @@ function AddProjects() {
                         name='Dark'
                     />
                 </a>
-                <a href="https://mysimplereactquotegenerator.netlify.app/">
+                <a href="https://shigchat.netlify.app/">
 
                     <Project
-                        image={quote}
-                        name={"Random Quote Generator"}
+                        image={chat}
+                        name={"Chat App"}
                         imgincase={<FaReact className='imgincase' />}
                     />
                 </a>
