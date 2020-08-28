@@ -267,6 +267,7 @@ span {
   border: none;
   cursor: pointer;
   font-weight: 600;
+  color: mediumpurple;
 }
 
 @media (min-width: 39.9375em) {
@@ -287,9 +288,6 @@ span {
     padding-right: 130px;
     margin-bottom: 45px;
     font-weight: 400;
-  }
-  .intro__btn:hover {
-    background-color: #fff2f2;
   }
 }
 
