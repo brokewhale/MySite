@@ -6,6 +6,7 @@ import dark from '../img/dark.png';
 import chat from '../img/chat.png';
 import weather from '../img/weather.png';
 import { FaReact, FaGithub } from 'react-icons/fa';
+import commitspy from '../img/commitspy.png';
 
 
 
@@ -30,11 +31,11 @@ function AddProjects() {
                         name='Dark'
                     />
                 </a>
-                <a href="https://shigchat.netlify.app/">
+                <a href="https://commitspy.netlify.app/">
 
                     <Project
-                        image={chat}
-                        name={"Chat App"}
+                        image={commitspy}
+                        name={"CommitSpy"}
                         imgincase={<FaReact className='imgincase' />}
                     />
                 </a>
