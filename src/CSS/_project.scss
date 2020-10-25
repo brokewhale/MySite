@@ -5,7 +5,7 @@
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    transition: all 650ms;
+    transition: transform 650ms;
     border: none;
 
 
@@ -23,7 +23,7 @@
             height: 265px;
             border-radius: 15px 15px 0 0;
             overflow: hidden;
-            transition: all 2.5s ease-in-out;
+            transition: object-position 2.5s ease-in-out;
 
             &:hover {
                 object-position: bottom;

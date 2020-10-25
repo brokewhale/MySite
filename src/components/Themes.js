@@ -2,7 +2,7 @@ export const lightTheme = {
     body: '#f2f2ff',
     text: '#363537',
     toggleBorder: 'red',
-    testbg: '',
+    testbg: 'white',
     iconfill: 'black',
     background: 'linear-gradient(#39598A, #79D7ED)',
     bshadow: 'rgba(144, 144, 151, 0.57) 0px 2px 24px 1px',

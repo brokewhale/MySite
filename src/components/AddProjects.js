@@ -3,7 +3,7 @@ import Project from './Project';
 import Homepage from '../img/Homepage.png';
 import dark from '../img/dark.png';
 // import quote from '../img/quote.png';
-import chat from '../img/chat.png';
+// import chat from '../img/chat.png';
 import weather from '../img/weather.png';
 import { FaReact, FaGithub } from 'react-icons/fa';
 import commitspy from '../img/commitspy.png';
