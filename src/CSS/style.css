@@ -13,6 +13,7 @@
 body {
   background-color: #f2f2ff;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .react-icons {
